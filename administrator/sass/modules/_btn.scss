@@ -1,0 +1,19 @@
+button{
+	border:				none;
+	padding:			10px 20px;
+
+	&.button-size--medium{
+
+		padding:			10px 20px;
+	
+	}
+
+	&.button-size--fullwidth{
+
+		display: 			block;
+		padding:			10px 0;
+		width: 				100%;
+
+	}
+	
+}

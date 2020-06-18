@@ -1,0 +1,99 @@
+$data = json_decode($hasil['halaman'],true);
+		foreach($data as $parrent){ // parrent
+			echo $parrent['id'];
+			echo "<br/>";
+			if(isset($parrent['children'])){
+				foreach($parrent['children'] as $sub){ // sub yang pertama
+					echo "&nbsp ".$sub['id'];
+					echo "||<br/>";
+					if(isset($sub['children'])){	
+						foreach($sub['children'] as $sub2){ // sub ke 2
+							echo "&nbsp &nbsp ".$sub2['id'];
+							echo "||<br/>";
+							if(isset($sub2['children'])){	
+								foreach($sub2['children'] as $sub3){ //sub ke 3
+									echo "&nbsp &nbsp &nbsp ".$sub3['id'];
+									echo "||<br/>";
+									if(isset($sub3['children'])){	
+										foreach($sub3['children'] as $sub4){ //sub ke 4
+											echo "&nbsp &nbsp &nbsp &nbsp ".$sub4['id'];
+											echo "||<br/>";
+											if(isset($sub4['children'])){	
+												foreach($sub4['children'] as $sub5){ //sub ke 5
+													echo "&nbsp &nbsp &nbsp &nbsp &nbsp ".$sub5['id'];
+													echo "||<br/>";
+												
+												}//akhir sub 5
+											}//child sub 4
+										}//akhir sub 4
+									}//child sub 3
+								}//akhir sub 3
+							} //child sub 2
+						}//akhir sub 2
+					} //child sub 1
+				}//akhir sub 1
+			}// child parrent 
+		}//akhir parrent
+
+		
+		
+		<div class='cf nestable-lists'>
+
+        	echo "
+	<div class='cf nestable-lists'>
+
+        <div class='dd' id='nestable'>
+            <ol class='dd-list'>
+                <li class='dd-item' data-id='1'>
+                    <div class='dd-handle'>Item 1</div>
+                </li>
+                <li class='dd-item' data-id='2'>
+                    <div class='dd-handle'>Item 2</div>
+                    <ol class='dd-list'>
+                        <li class='dd-item' data-id='3'><div class='dd-handle'>Item 3</div></li>
+                        <li class='dd-item' data-id='4'><div class='dd-handle'>Item 4</div></li>
+                        <li class='dd-item' data-id='5'>
+                            <div class='dd-handle'>Item 5</div>
+                            <ol class='dd-list'>
+                                <li class='dd-item' data-id='6'><div class='dd-handle'>Item 6</div></li>
+                                <li class='dd-item' data-id='7'><div class='dd-handle'>Item 7</div></li>
+                                <li class='dd-item' data-id='8'><div class='dd-handle'>Item 8</div></li>
+                            </ol>
+                        </li>
+                        <li class='dd-item' data-id='9'><div class='dd-handle'>Item 9</div></li>
+                        <li class='dd-item' data-id='10'><div class='dd-handle'>Item 10</div></li>
+                    </ol>
+                </li>
+                <li class='dd-item' data-id='11'>
+                    <div class='dd-handle'>Item 11</div>
+                </li>
+                <li class='dd-item' data-id='12'>
+                    <div class='dd-handle'>Item 12</div>
+                </li>
+            </ol>
+        </div>";
+		
+		
+
+		
+		
+     echo " <div class='dd' id='nestable2'>
+            <ol class='dd-list'>
+                <li class='dd-item' data-id='13'>
+                    <div class='dd-handle'>Item 13</div>
+                </li>
+                <li class='dd-item' data-id='14'>
+                    <div class='dd-handle'>Item 14</div>
+                </li>
+                <li class='dd-item' data-id='15'>
+                    <div class='dd-handle'>Item 15</div>
+                    <ol class='dd-list'>
+                        <li class='dd-item' data-id='16'><div class='dd-handle'>Item 16</div></li>
+                        <li class='dd-item' data-id='17'><div class='dd-handle'>Item 17</div></li>
+                        <li class='dd-item' data-id='18'><div class='dd-handle'>Item 18</div></li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+
+    </div>

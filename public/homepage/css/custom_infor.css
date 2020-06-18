@@ -1,0 +1,1073 @@
+/* p{
+    color: black;
+}
+
+.counter-section{
+    background-color: #5a4618;
+}
+
+.counter-content{
+    padding-left: 0px;
+    text-align: center;
+}
+
+.dean-image{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.spad {
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.dekan-name{
+    font-size: 1.3em;
+    color: white !important;
+}
+
+.side-post .blog-item .blog-content{
+    padding-left: 0px !important;
+}
+.side-post .blog-item .blog-content h4{
+    font-size: 14px !important;
+}
+
+.blog-section .section-title{
+    margin-bottom: 10px;
+}
+.blog-item{
+     margin-bottom: 10px;
+}
+.side-post .blog-item{
+    margin-bottom: 0px;
+}
+
+.open>.dropdown-menu {
+    display: block;
+    background: #eb2629;
+    border: none;
+    border-radius: 0px;
+
+}
+.main-menu .dropdown-menu li a {
+    display: block;
+    padding: 10px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    white-space: nowrap;
+    background: #eb2629;
+}
+.main-menu .open>.dropdown-menu li a:hover {
+    color: #fff;
+    background: #9e2014;
+}
+.dropdown-menu{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    top: auto;
+}
+.main-menu .open a{
+    background: #9e2014;
+}
+
+.hs-item .hs-subtitle{
+    color: #9e2014;
+}
+
+.hs-item .site-btn{
+    margin-top: 10px;
+    top: 20px;
+    background: #5a4618;
+}
+
+.hs-item .site-btn{
+    margin-top: 10px;
+    top: 20px;
+    color: white;
+    background: #5a4618;
+}
+
+.hero-slider .owl-dots .owl-dot.active{
+    background: #5a4618;
+}
+
+.blog-item .blog-meta span i{
+    color: #5a4618;
+}
+.blog-content .blog-title h4:hover{
+    color: #5a4618;
+}
+
+.enroll-list-item span{
+    background: #5a4618;
+}
+
+.course-item .course-thumb .course-cat span{
+    background: #5a4618;
+}
+
+.course-item .course-info .date{
+    color: #5a4618;
+}
+
+.course-item .course-info .cource-price{
+    color: #5a4618;
+}
+
+.footer-widget .recent-post span i{
+    color: #fff;
+}
+
+.img-partner{
+    max-width: 100px;
+    padding:5px 10px;
+}
+
+.enroll-section {
+    position: relative;
+    padding-top:35px;
+    padding-bottom:35px;
+}
+.enroll-section .counter-content a:hover{
+    color:white;
+
+}
+
+#downloadakreditasi.site-btn{
+    background: none;
+    color: #5a4618;
+    border: 2px solid #5a4618;
+
+}
+
+#downloadakreditasi.site-btn:hover{
+    color: white;
+    background: #5a4618;
+
+}
+
+.blog-section .site-btn{
+    background: none;
+    color: #5a4618;
+    border: 2px solid #5a4618;
+
+}
+
+.blog-section .site-btn:hover{
+    color: white;
+    background: #5a4618;
+
+}
+
+.enroll-section .site-btn{
+    background: none;
+    color: white;
+    border: 2px solid #5a4618;
+
+}
+
+.enroll-section .site-btn:hover{
+    background: #5a4618;
+
+}
+
+.beranda-kepegawaian {
+    position: relative;
+    margin-top:10px;
+    margin-bottom:25px;
+}
+
+.beranda-kepegawaian:after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: white;
+	opacity: 0.8;
+}
+
+.beranda-kepegawaian .container {
+	position: relative;
+	z-index: 1;
+}
+
+.beranda-kepegawaian .section-title {
+	margin-bottom: 40px;
+}
+
+.beranda-kepegawaian .counter-content a:hover{
+    color:white;
+
+}
+
+.beranda-kepegawaian .site-btn{
+    background: none;
+    color: #5a4618;
+    border: 2px solid #5a4618;
+    margin-top: 10px;
+
+}
+
+.beranda-kepegawaian .site-btn:hover{
+    color: white;
+    background: #5a4618;
+
+}
+
+.beranda-kepegawaian h2{
+    color: black;
+}
+
+.beranda-kepegawaian p{
+    color: black;
+}
+
+.beranda-kemahasiswaan {
+    position: relative;
+    padding-top:35px;
+    padding-bottom:35px;
+}
+
+.beranda-kemahasiswaan:after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: white;
+	opacity: 0.8;
+}
+
+.beranda-kemahasiswaan .container {
+	position: relative;
+	z-index: 1;
+}
+
+.beranda-kemahasiswaan .section-title {
+	margin-bottom: 40px;
+}
+
+.beranda-kemahasiswaan .counter-content a:hover{
+    color:white;
+
+}
+
+.beranda-kemahasiswaan .site-btn{
+    background: none;
+    color: #5a4618;
+    border: 2px solid #5a4618;
+
+}
+
+.beranda-kemahasiswaan .site-btn:hover{
+    background: #5a4618;
+
+}
+
+.beranda-kemahasiswaan h2{
+    color: black;
+}
+
+.beranda-kemahasiswaan p{
+    color: black;
+}
+
+.beranda-laboratorium {
+    position: relative;
+    padding-top:35px;
+    padding-bottom:35px;
+}
+
+.beranda-laboratorium:after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: white;
+	opacity: 0.8;
+}
+
+.beranda-laboratorium .container {
+	position: relative;
+	z-index: 1;
+}
+
+.beranda-laboratorium .section-title {
+	margin-bottom: 40px;
+}
+
+.beranda-laboratorium .counter-content a:hover{
+    color:white;
+
+}
+
+.beranda-laboratorium .site-btn{
+    background: #5a4618;
+
+}
+
+.beranda-laboratorium .site-btn:hover{
+    background: #5a4618;
+
+}
+
+.beranda-laboratorium h2{
+    color: black;
+}
+
+.beranda-laboratorium p{
+    color: black;
+}
+.beranda-laboratorium img{
+
+    vertical-align: middle;
+}
+
+.beranda-laboratorium .hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+  }
+
+.beranda-laboratorium .hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+
+.beranda-laboratorium .hovereffect:hover .overlay {
+    background-color:#5a461893;
+  }
+
+.beranda-laboratorium .hovereffect img {
+    display: block;
+    position: relative;
+  }
+
+.beranda-laboratorium .hovereffect h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-transform: translateY(45px);
+    -ms-transform: translateY(45px);
+    transform: translateY(45px);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+
+.beranda-laboratorium .hovereffect:hover h2 {
+    -webkit-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+
+.beranda-laboratorium .hovereffect a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    font-weight: normal;
+    margin: 5% 0 0 0;
+    padding: 25px 25px 25px 25px;
+  }
+
+.beranda-laboratorium .hovereffect:hover a.info {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+.beranda-laboratorium .hovereffect a.info:hover {
+    box-shadow: 0 0 5px #fff;
+  }
+
+  .container .tabs-left {
+    border-bottom: none;
+    border-right: 1px solid #ddd;
+    display: block;
+  }
+
+  .container .tabs-left>li {
+    float: none;
+   margin:0px;
+
+  }
+
+  .container .tabs-left>li a{
+    color: black;
+
+  }
+
+  .container .tabs-left>li.active>a,
+  .container .tabs-left>li.active>a:hover,
+  .container .tabs-left>li.active>a:focus {
+    border-bottom-color: #ddd;
+    border-right-color: transparent;
+    background:#063c63d0;
+    border:none;
+    border-radius:0px;
+    margin:0px;
+    color: white;
+  }
+  .container .nav-tabs>li>a:hover {
+      /* margin-right: 2px; */
+      line-height: 1.42857143;
+      border: 1px solid transparent;
+      /* border-radius: 4px 4px 0 0; */
+  }
+  .container.tabs-left>li.active>a::after{content: "";
+      position: absolute;
+      top: 10px;
+      right: -10px;
+      border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+
+    border-left: 10px solid #063c63d0;
+      display: block;
+      width: 0;}
+
+      .carousel-inner img {
+        width: 100%;
+        height: 100%;
+      }
+
+      #detailprofil table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      #detailprofil td {
+        padding: 8px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+      }
+
+      #detailprofil th {
+        padding: 8px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+      }
+
+      #detailprofil tr:hover {background-color:#f5f5f5;}
+
+      #publikasi table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+
+      #publikasi td {
+        padding: 8px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+      }
+
+      #publikasi th {
+        padding: 8px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+      }
+
+      #publikasi tr:hover {background-color:#f5f5f5;}
+
+      #penelitian table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      #penelitian td {
+        padding: 8px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+      }
+
+      #penelitian th {
+        padding: 8px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+      }
+
+      #penelitian tr:hover {background-color:#f5f5f5;}
+
+      #pengabdian table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      #pengabdian td {
+        padding: 8px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+      }
+
+      #pengabdian th {
+        padding: 8px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+      }
+
+      #pengabdian tr:hover {background-color:#f5f5f5;}
+
+      .course-info .site-btn{
+        background: none;
+        color: #5a4618;
+        border: 2px solid #5a4618;
+        margin-top:10px;
+
+    }
+
+    .course-info .site-btn:hover{
+        color: white;
+        background: #5a4618;
+
+    }
+
+    .site-pageination li a:hover,
+.site-pageination li a.active {
+	background: #5a4618;
+	border-color: #da1f22b2;
+	color: #fff;
+}
+
+.member .member-social a:hover {
+	color: #5a4618;
+}
+
+.widget .recent-post-widget .rp-content p i {
+	color: #5a4618;
+}
+
+.widget .recent-post-widget .rp-content h6:hover {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+    margin-bottom: 10px;
+    color: #5a4618;
+}
+
+.site-btn {
+	position: relative;
+	display: inline-block;
+	text-transform: uppercase;
+	background: #5a4618;
+	color: #fff;
+	padding: 18px 30px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 14px;
+	border-radius: 5px;
+	min-width: 170px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+}
+
+.scrollable {
+    min-height: fit-content;
+    max-height: 100rem;
+    overflow-x: scroll;
+  }
+
+  @media only screen and (min-width: 768px) {
+    #foto-kemahasiswaan{
+        margin-top: 20px
+    }
+
+    #foto-akademik{
+        margin-top: 60px
+    }
+
+  }
+
+  @media only screen and (max-width: 768px) {
+    #foto-kemahasiswaan{
+        margin-top: -40px
+    }
+
+    #beranda-penelitian{
+        margin-top: 30px;
+        margin-bottom: 30px
+    }
+
+    #beranda-publikasi{
+        margin-bottom: 30px
+    }
+
+  }
+
+  .event-item .event-thumb .event-date span {
+	min-width: 170px;
+	bottom: 0;
+	background: #5a4618;
+	padding: 10px 15px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	display: inline-block;
+	border-radius: 50px;
+	letter-spacing: 2px;
+}
+
+.member #beranda-staf-laboratorium.member-pic:after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.member #beranda-staf-admin.member-pic:after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.member #beranda-staf-pengajar.member-pic:after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.header-info .hf-item p{
+	color: white;
+}
+
+.course-item .course-thumb img {
+    width: 370px;
+    height: 250px;
+}
+
+.post-item .post-meta span i {
+	color: #5a4618;
+}
+
+.widget .widget-title {
+	border-left: 5px solid #5a4618;
+    height: 100%;
+    padding-left: 10px;
+    margin-left: -10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #e8e8e8;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.footer-widget .recent-post p{
+	color: rgb(206, 206, 206);
+}
+
+.footer-widget .recent-post p:hover{
+	color: #fff;
+} */
+
+.bottom-lined-center {
+    display:inline-block;
+    border-bottom: 4px solid #5a4618;
+}
+
+.bottom-lined-center-white {
+    display:inline-block;
+    border-bottom: 3px solid #fff;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #5a4618;
+}
+
+.nav-tabs>li.landing-page {
+    width: 50%;
+}
+
+.tabbed-nav-text {
+    color: #fff;
+}
+
+.counter-section {
+	padding: 20px 0;
+}
+
+.enroll-section:after {
+	background: #191409;
+}
+
+.home-blog {
+    border-left: 5px solid #5a4618;
+    padding-left: 10px;
+    margin-left: -10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #e8e8e8;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.card-view {
+    margin: 16px 0;
+    padding: 40px 40px 50px;
+    background: #fff;
+    text-align: center;
+    -webkit-box-shadow: 0 1px 4px 1px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 1px 4px 1px rgba(0,0,0,.3);
+    box-shadow: 0 1px 4px 1px rgba(0,0,0,.3);
+    position: relative;
+    overflow: hidden;
+}
+.container .nav-tabs>li>a:hover {
+    margin-right: 0px;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ddd
+}
+.nav-tabs > li {
+    float: left;
+    margin-bottom: -1px
+}
+.nav-tabs > li > a {
+    margin-right: 0px;
+    line-height: 1.42857143;
+    border: unset;
+    border-radius: 4px 4px 0 0
+}
+.nav-tabs > li > a:hover {
+    border-color: #eee #eee #ddd
+}
+.nav-tabs > li.active > a.tab-akademik,
+.nav-tabs > li.active > a.tab-akademik:focus,
+.nav-tabs > li.active > a.tab-akademik:hover {
+    color: #fff;
+    cursor: default;
+    background-color: unset;
+    border: unset;
+    border-bottom: 5px solid #fff;
+}
+
+.nav > li > a.tab-akademik:focus, .nav > li > a.tab-akademik:hover {
+    text-decoration: unset;
+    color: #fff;
+    font-weight: 500;
+    background-color: unset;
+    background: unset !important;
+}
+
+.nav > li > a.tab-akademik:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: unset;
+    border: unset;
+    border-bottom: 5px solid #fff;
+}
+
+.container .nav-tabs>li>a:hover {
+    border-bottom-color: #ddd;
+    border-right-color: transparent;
+    background: #0c090585;
+    border: none;
+    border-radius: 0px;
+    margin: 0px;
+    color: white;
+}
+
+.container .nav-tabs>li>a.tab-akademik:hover {
+    margin-right: 0px;
+    border: unset;
+    border-bottom: 5px solid #fff;
+}
+
+.nav>li>a {
+    text-decoration: unset;
+    color: #fff;
+    font-weight: 500;
+    background-color: unset;
+}
+
+.nav-tabs .nav-link.active {
+    color: #fff;
+    cursor: default;
+    background-color: unset;
+    border: unset;
+    border-bottom: 5px solid #fff;
+}
+
+.footer-section h3 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.footer-section p {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer-widget .about-widget img {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 175px;
+}
+
+.footer-section h5 {
+    font-weight: 300;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer-section {
+    background-color: #5a4618;
+    background-image: url(https://eng.unhas.ac.id/informatikanew/public/homepage/img/footer-bg.png);
+    background-size: unset;
+    background-repeat: no-repeat;
+    background-position: center 75px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.footer-section .copyright {
+    border-top: 1px solid #fff;
+}
+
+.counter-content p {
+    text-transform: unset;
+}
+
+.site-logo {
+    max-width: 175px;
+    margin-top: -25px;
+}
+
+.graph-section:after {
+	background: #191409;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+/* .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    width: 100%;
+} */
+
+.sticky {
+    margin-top:-1px;
+    top: 0;
+    position: sticky;
+    z-index: 25;
+}
+
+/* .sticky + .mahasiswa-site-breadcrumb {
+    margin-top: 159px;
+} */
+
+/*@media (min-width: 768px) {
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1071;
+}*/
+
+/* .sticky + .hero-section {
+  padding-top: 130px;
+} */
+
+@media only screen and (min-width: 600px) {
+
+    .owl-carousel .owl-stage {
+        display: flex;
+        height: auto;
+
+    }
+
+    .owl-carousel .owl-item img {
+        width: auto;
+        height: 250px;
+        object-fit: cover;
+    }
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: #5a4618;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.beranda-laboratorium .hovereffect .overlay {
+    padding: 60px 0px;
+}
+
+.fade-animation {
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera < 12.1 */
+    animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* .post-content {
+    text-align: center;
+} */
+
+.enroll-section .site-btn {
+    border: 2px solid #ffffff;
+}
+
+.blog-item .blog-meta span {
+    color: #656565;
+}
+
+.widget .recent-post-widget .rp-content p {
+    color: #656565;
+}
+
+.nav-tabs>li {
+    width: 100%;
+}
+
+.faq > li > a {
+    width: 100%;
+    display: block;
+    position: relative;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
+}
+.faq-w3agile .faq li {
+    margin-top: 2em;
+    list-style-type: decimal;
+    padding-left: 0.5em;
+}
+.faq-w3agile .faq > li > a { 
+    color: #999; 
+} 
+.faq-w3agile .faq li li.subitem1 {
+    display: block;
+    margin-top: 1em;
+}
+.faq-w3agile {
+    padding: 5em 0;
+}
+ul.faq {
+    margin-top: 5em;
+}	

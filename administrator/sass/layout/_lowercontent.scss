@@ -1,0 +1,321 @@
+.container--action-bar{
+
+ 	display: 			block;
+ 	width: 				100%;
+ 	overflow: 			hidden;
+ 	padding-bottom:		30px;
+
+	.action-bar{
+
+		width: 				1170px;
+		margin:				0 auto;
+		@extend				.clearfix;
+		min-height: 		100px;
+		padding-top:		40px;
+		@include breakpoint($breakpoint-large){
+			width: 				960px;
+		}
+		@include breakpoint($breakpoint-medium){
+			width: 				768px;
+		}
+		@include breakpoint($breakpoint-small){
+			@include 			calc(width,"100% - 60px");
+			padding-top:		20px;
+		}
+
+		.action-bar__title{
+
+			display: 			block;
+			width: 				370px;
+			@include 			float-left;
+			@include breakpoint($breakpoint-large){
+				width: 				370px;
+			}
+			@include breakpoint($breakpoint-medium){
+				width: 				370px;
+			}
+			@include breakpoint($breakpoint-small){
+				@include 			calc(width,"100% - 60px");
+			}
+
+			h2{
+
+				i{
+					margin-left: 			15px;
+				}
+
+			}
+
+		}
+
+		.action-bar__content{
+
+			display: 			block;
+			@include 			float-left;
+			width: 				800px;
+			padding-left:		30px;
+			padding-top:		10px;
+			@include breakpoint($breakpoint-large){
+				width: 				590px;
+			}
+			@include breakpoint($breakpoint-medium){
+				width: 				398px;
+			}
+			@include breakpoint($breakpoint-small){
+				@include 			calc(width,"100% - 60px");
+				padding-left:		0px;
+			}
+
+			p{
+
+				margin-top: 		0;
+				font-size: 			14px;
+				line-height: 		24px;
+
+				a{
+
+					text-decoration: underline;
+
+				}
+
+			}
+
+		}
+
+	}
+
+ }
+
+
+
+
+
+
+
+ .container--content--cards{
+
+ 	display: 			block;
+ 	width: 				100%;
+ 	overflow: 			hidden;
+
+	.cards{
+
+		width: 				1170px;
+		margin:				0 auto;
+		@extend				.clearfix;
+		@include breakpoint($breakpoint-large){
+			width: 				960px;
+		}
+		@include breakpoint($breakpoint-medium){
+			width: 				768px;
+		}
+		@include breakpoint($breakpoint-small){
+			width: 				100%;
+		}
+
+		.cards--badge{
+
+			padding-right:		30px;
+			@include 			calc(width,"100%  / 3");
+			@include			float-left;
+			height: 			330px;
+			@include breakpoint($breakpoint-small){
+				height: 			auto;
+				@include			calc(width,"100% + 60px");
+				margin-left: 		-30px;
+				padding-right:		0px;
+			}
+
+			.main--section{
+
+				@include breakpoint($breakpoint-small){
+					@include			calc(width,"100% - 60px");
+					margin:				auto; 
+					padding-left:		30px;
+					padding-right: 		30px;
+					h3{
+						margin:				0px;
+					}
+				}
+
+				.main--section__title{
+
+					h3{
+
+						margin-bottom:			0;
+
+					}
+
+				}
+
+				.main--section__content{
+
+					@extend 			.clearfix;
+
+					.badge__thumbnail{
+
+						a{
+
+							display:			block;
+							@include 			float-left;
+							margin-right:		30px;
+							width: 				150px;
+							@include breakpoint($breakpoint-large){
+								@include 			calc(width,"(100% - 60px) / 2");
+								max-width: 			150px;
+							}
+							@include breakpoint($breakpoint-medium){
+								@include 			calc(width,"(100% - 60px) / 2");
+							}
+
+							&:nth-child(2n+1){
+								
+							}
+							&:nth-child(2n){
+								margin-right: 		0px;
+							}
+
+							img{
+
+								max-width: 100%;
+								height: auto;
+								border-radius:2px;
+
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+
+
+		.cards--twitter{
+			
+			@include 			calc(width,"100%  / 3");
+			@include 			float-left;
+			height: 			330px;
+			padding-left:		30px;
+			padding-right:		30px;
+			position:			relative;
+			@include breakpoint($breakpoint-small){
+				height: 			auto;
+				@include			calc(width,"100% + 60px");
+				margin-left: 		-30px;
+			}
+
+			.main--section{
+
+				@include breakpoint($breakpoint-small){
+					@include			calc(width,"100% - 60px");
+					margin:				auto; 
+					h3{
+						margin:				0px;
+					}
+				}
+
+				.main--section__content{
+					
+					.twitter__content{
+						
+						@extend .clearfix;
+						
+						p{
+						
+							margin-top: 			0;
+						
+						}
+
+						button{
+
+							border:				none;
+							position: 			absolute;
+							bottom:				30px;
+							left:				30px;
+							padding:			10px 20px;
+							border-radius:		2px;
+							@include breakpoint($breakpoint-small){
+								position: 			inherit;
+								width: 				100%;
+							}
+
+						}
+
+					}
+
+				}
+
+
+
+			}
+			
+		}
+
+
+
+		.cards--facebook{
+
+			@include 			calc(width,"100%  / 3");
+			@include 			float-left;
+			height: 			330px;
+			padding-left:		30px;
+			padding-right:		30px;
+			position:			relative;
+			@include breakpoint($breakpoint-small){
+				height: 			auto;
+				@include			calc(width,"100% + 60px");
+				margin-left: 		-30px;
+			}
+
+			.main--section{
+
+				@include breakpoint($breakpoint-small){
+					@include			calc(width,"100% - 60px");
+					margin:				auto; 
+					h3{
+						margin:				0px;
+					}
+				}
+
+				.main--section__content{
+
+					.facebook__content{
+
+						@extend .clearfix;
+
+						p{
+							margin-top: 		0;
+						}
+
+						button{
+
+							border:				none;
+							position: 			absolute;
+							bottom:				30px;
+							left:				30px;
+							padding:			10px 20px;
+							border-radius:		2px;
+
+							@include breakpoint($breakpoint-small){
+								position: 			inherit;
+								width: 				100%;
+							}
+						
+						}
+
+					}
+
+				}
+
+			}
+			
+		}
+
+	}
+	
+ }

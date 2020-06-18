@@ -1,0 +1,113 @@
+/*
+Arsitektur Front-End Website Dinas Makassar
+
+Jika ada pertanyaan mengenai HTML dan CSS dapat menghubungi
+Nama 		: Ahmad Yunus
+Email		: m.ahmadyunus@gmail.com
+
+Versi 		: 1.0
+*/
+
+
+/*
+Import gem compass dan breakpoint. Breakpoint digunakan untuk responsiveness. 
+Cara menggunakan breakpoint dapat dipelajari diwebsitenya http://breakpoint-sass.com
+
+Konfigurasi ukuran breakpoint dapat dilihat pada utilities/settings
+*/
+@import "compass";
+@import "breakpoint";
+
+
+/*
+Embed Google Font, 
+Font DOSIS digunakan untuk heading dan title, sedangkan font Open Sans digunakan untuk 
+body text. Konfigurasi dasar mengenai font-family, font-size, dan font-weight yang 
+digunakan dalam website ini dapat dilihat di utilities/settings
+*/
+@import url("http://fonts.googleapis.com/css?family=Dosis:500,700");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+
+
+/* 
+Settings menyimpan variabel-variable yang digunakan pada theme serta layout. Variabel
+tersebut meliputi font, font-size, warna, serta konfigurasi breakpoint. Yang dapat diubah dan 
+disesuaikan sesuai jenis Dinas yang ingin ditampilkan. 
+
+Utilities digunakan untuk menyimpan mixin serta class yang sering digunakan pada themes serta
+layout.
+*/
+@import "utilities/settings";
+@import "utilities/utilities";
+
+
+
+
+
+
+/* 
+Normalize digunakan untuk mereset konfigurasi css default pada tiap browser untuk menghindari
+perbedaan penampilan pada tiap browser.
+
+Base digunakan untuk style element dasar seperti link, paragraf, dll.
+*/
+@import "base/normalize";
+@import "base/base";
+
+
+
+
+
+/* 
+Pada layout terdapat hampir semua pengaturan yang membentuk layout tiap segmen konten, meliputi
+width, float, padding, margin, size, dll. Sedangkan warna, font-size, serta modifikasi (border-radius, shadow, dll) 
+diatur dalam theme/theme.
+
+Layout Top untuk pengaturan layout meliputi logo, search form, navigasi, serta slider. 
+
+Layout Main untuk pengaturan konten utama dan sidebar. 
+
+Layout Lowercontent untuk pengaturan konten dibawah konten utama seperti Badge Card, Twitter Card, dan Facebook Card. 
+Serta Call to Action bar yang mengarah ke halaman Aspirasi Masyarakat. 
+
+Layout Footer untuk pengaturan footer dan widget didalam footer. 
+
+Layout Widget untuk pengaturan widget pada sidebar seperti Widget Facebook, Twitter, Pengumuman, dan Agenda. 
+*/
+@import "layout/top";
+@import "layout/main";
+@import "layout/lowercontent";
+@import "layout/footer";
+@import "layout/widget";
+//@import "layout/organization-structure";
+
+
+
+/* 
+Modules digunakan untuk pengaturan layout elemen website yang khusus. 
+
+Modules Slider berisi konfigurasi css slider pada halaman utama, konfigurasi serta pengaturan dapat dipelajari di 
+http://slippry.com 
+
+Modules BTN berisi konfigurasi untuk layout button yang digunakan pada website.
+
+Modules Gallery serta Gallery Skin merupakan konfigurasi layout pada halaman detail-galeri.html. Galleri menggunakan 
+Photoswipe dan dapat dipelajari di http://photoswipe.com
+*/
+@import "modules/slider";
+@import "modules/btn";
+@import "modules/gallery";
+@import "modules/gallery-skin";
+
+
+
+
+
+
+
+/* 
+Themes digunakan untuk pengaturan warna, ukuran huruf, border, teks, serta modifikasi seperti border radius.
+*/
+@import "theme/theme"
+

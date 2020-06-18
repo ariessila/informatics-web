@@ -1,0 +1,127 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body.home {
+	background:#a89f6a;
+	}
+.mainArea {
+	background:url(../img/mainBg.jpg) repeat-x 0px 80px;
+	border-radius:0px;
+	
+	min-height:600px;
+	padding:0;
+	margin-bottom:0;
+	}
+.mainArea .container {
+	position:relative;
+	padding-top:80px;
+	}
+.kipas {
+	position:absolute;
+	left:-100px;
+	}
+.loginBox {
+	position:relative;
+	}
+.logLayer {
+	background:url(../img/logLayerleft.png) no-repeat;	
+	background-position: -11px 0px;
+	margin-left: -20px;
+	padding-left: 20px;
+	height: 180px;
+	}
+.logLayerright {
+	background: url(../img/logLayerright.png) no-repeat;
+	background-position: 285px 0px;
+	margin-right: -20px;
+	padding-right: 20px;
+	height: 180px;
+	}
+.formLogin {
+	position:absolute;
+	right: 0;
+	top: 200px;
+	background:url(../img/loginBtn.png) repeat-x;
+	}
+.formLogin .logo {
+	width: 240px;
+	margin: 0 auto;
+	}
+.icon {
+	width:32px;
+	height:30px;
+	text-indent:-9999px;
+	display:block;
+	background:url(../img/icon.png) no-repeat;	
+	}
+.usernameIcon {
+	background-position:3px -4px;
+	}
+.passwordIcon {
+	background-position:3px -44px;
+	}
+form.login input[type="text"] {
+	width:90%;
+	height:15px;
+	}
+form.login input[type="password"] {
+	width:90%;
+	height:15px;
+	}
+form.login button {
+	border: none;
+	border-radius: 0;
+	background: #402436;
+	color: #FFF;
+	}
+form.login button:hover {
+	opacity:0.8;
+	}
+footer p {
+	text-align:center;
+	color:#402436;
+	margin-top: 15px;
+	}
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -51px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 50px; 
+}
+.site-footer {
+ border-top:1px solid #D6D6D6
+}
+.page-header .container {
+	padding-top:50px;
+	}
+.page-header {
+	background:url(../img/header.png) repeat-x;
+	margin: 0;
+	min-height: 180px;
+	border: none;
+	}
+
+
+
+
+
+
+
+
+
+
+
+

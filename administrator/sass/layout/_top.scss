@@ -1,0 +1,500 @@
+.wrapper{
+	display: 		block;
+	width: 			100%;
+	max-width:		100%;
+	overflow:		hidden;
+}
+
+
+
+
+
+.body-background{
+	
+	left:			0px;
+	top:			0px;
+	overflow:		hidden;
+	margin:			0px;
+	height:			600px;
+	width:			100%;
+	z-index:		-999999;
+	position:		fixed;
+	@include breakpoint($breakpoint-small){
+		height: 		340px;
+	}
+
+	img{
+
+		position:			absolute;
+		margin:				0px;
+		padding:			0px;
+		min-width:  		100%;
+		width: 				auto;
+		min-height: 		100%;
+		height: 			auto;
+		max-width:  		none;
+		max-height:			none;
+		top:				0px;
+
+		@include breakpoint($breakpoint-small){
+			height: 		340px;
+		}
+
+	}
+
+}
+
+
+
+
+
+
+.container--top{
+
+ 	display: 		block;
+ 	width: 			100%;
+ 	height: 		auto;
+ 	max-height: 	400px;
+ 	overflow: 		visible;
+ 	
+ 	@include breakpoint($breakpoint-small){
+		max-height: 140px;
+	}
+
+
+
+
+ 	.container--top__main{
+
+		width: 				1170px;
+		margin:				auto;
+		height: 			150px;
+		@extend				.clearfix;
+		@include breakpoint($breakpoint-large){
+			width: 				960px;
+		}
+		@include breakpoint($breakpoint-medium){
+			width: 				768px;
+		}
+		@include breakpoint($breakpoint-small){
+			@include 			calc(width,"100% - 60px");
+			height: 			90px;
+		}
+
+
+		.logo{
+
+			@include 			float-left;
+			@extend				.clearfix;
+			width:				670px;
+			padding-top: 		24px;
+			height: 			126px;
+			@include breakpoint($breakpoint-medium){
+				width: 			100%;
+				text-align: 	center;
+			}
+			@include breakpoint($breakpoint-small){
+				width: 			100%;
+				text-align: 	center;
+				padding-top:	10px;
+			}
+
+			.logo__image{
+
+				display: 			block;
+				width: 				102px;
+				height: 			102px;
+				padding:			10px;
+				border-width: 		2px;
+				border-style: 		solid;
+				@include			float-left;
+
+				img{
+
+					width: 				80px;
+					height: 			80px;
+
+				}
+
+				@include breakpoint($breakpoint-small){
+					width: 				72;
+					height: 			72;
+					img{
+						width: 				50px;
+						height: 			50px;
+					}
+				}
+			}
+
+
+
+
+
+			.logo__text{
+
+				@include			float-left;
+				display: 			block;
+				padding-left: 		10px; 
+				@include 			calc(padding-top,51px - ($h2-size/2));
+				@include			calc(width,"100% - 112px");
+
+				h2{
+
+					margin:		0;
+
+				}
+
+				@include breakpoint($breakpoint-small){
+					h2{
+						font-size: 		$h3-size;
+					}
+					@include			calc(width,"100% - 82px");
+					@include 			calc(padding-top,31px - ($h3-size/2));
+				}
+
+			}
+
+ 		}
+
+
+
+
+
+		.search{
+
+			.search__container{
+
+				@include			float-right;
+				display:			block;
+				@include 			calc(width,"100% - 670px"); 
+				height: 			48px;
+				border-width: 		1px;
+				border-style: 		solid;
+				margin-top:			50px;
+				@extend 			.clearfix;
+
+				@include breakpoint($breakpoint-medium){
+					display: 			none;
+				}
+				@include breakpoint($breakpoint-small){
+					display: 			none;
+				}
+
+
+
+
+
+				.search__container__icon{
+
+					display:			block;
+					@include			float-left;
+					width: 				50px;
+					text-align: 		center;
+					padding-top: 		16px;
+
+				}
+
+				.search__container__form{
+
+					input{
+
+						@include			calc(width,"100% - 70px");
+						height: 			48px;
+						padding-right: 		20px;
+						border:				none;
+						outline: 			none;
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+
+
+
+
+
+ 	.container--top__nav{
+
+		width: 				1170px;
+		margin:				auto;
+		height: 			50px;
+		@include breakpoint($breakpoint-large){
+			width: 				960px;
+		}
+		@include breakpoint($breakpoint-medium){
+			width: 				768px;
+		}
+		@include breakpoint($breakpoint-small){
+			@include 			calc(width,"100% - 60px");
+		}
+
+
+		.nav{
+
+			ul.nav__main{
+
+				li{
+
+					@include			float-left;
+					position:			relative;
+					list-style: 		none;
+
+					a{
+
+						display: 			block;
+						height: 			50px;
+						padding-top: 		16px;
+						padding-right: 		30px;
+						padding-left: 		30px;
+						@include breakpoint($breakpoint-medium){
+							padding-left:		20px;
+							padding-right:		20px;
+						}
+
+					}
+
+
+					&:first-child{
+						
+						a{
+							padding-left: 			0px;
+						
+						}
+					}
+
+					ul.nav__main__sub{
+
+						display: 				none;
+
+					}
+
+					&:hover{
+
+						ul.nav__main__sub{
+							
+							display: 				block;
+							position:				absolute;
+							left:					0px;
+							top:					50px;
+							z-index: 				5;
+
+							li{
+
+								width: 					240px; 
+								list-style: 			none;
+
+								&:first-child{
+										
+									a{
+										padding-left: 		30px;
+										@include breakpoint($breakpoint-medium){
+											padding-left:		20px;
+										}
+									}
+
+								}
+
+							}
+
+						}
+
+					}
+				
+				}
+
+				@include breakpoint($breakpoint-small){
+					display: 				none;
+				}
+
+			}
+
+			select.nav__mobile{
+				display: 				none;
+				width: 					100%;
+				@include breakpoint($breakpoint-small){
+					display: 				inline-block;
+					height: 				30px;
+					margin-top:				10px;
+					padding-left:			0px;
+				}
+
+			}
+
+		}	
+
+ 	}
+
+}
+
+
+
+
+
+
+.container--slider{
+
+ 	display: 			block;
+ 	width: 				100%;
+ 	overflow: 			hidden;
+ 	height: 			400px;
+ 	@include breakpoint($breakpoint-small){
+		height:				200px;
+	}
+
+ 	.slider{
+
+ 		width: 				1170px;
+		margin:				0 auto;
+		@extend				.clearfix;
+		overflow: 			visible;
+		@include breakpoint($breakpoint-large){
+			width: 				960px;
+		}
+		@include breakpoint($breakpoint-medium){
+			width: 				768px;
+		}
+		@include breakpoint($breakpoint-small){
+			@include 			calc(width,"100% - 60px");
+		}
+
+		.container--slider__slide{
+
+			display: 			block;
+			@include  			float-left;
+			width: 				940px;
+			margin-left: 		-70px;
+			@include breakpoint($breakpoint-large){
+				width: 				730px;
+			}
+			@include breakpoint($breakpoint-medium){
+				width: 				588px;
+			}
+			@include breakpoint($breakpoint-small){
+				@include 			calc(width,"100% + 140px");
+			}
+
+		}
+
+		.container--slider__agenda{
+
+			display: 			block;
+			@include			float-right;
+			width: 				370px;
+			margin-right:       -70px;
+			padding-left:		30px;
+			height: 			400px;
+			@include breakpoint($breakpoint-medium){
+				width: 				320px;
+			}
+
+			.agenda__title{
+
+				padding-bottom:			15px;
+				width: 					270px;
+				@include breakpoint($breakpoint-medium){
+					width: 				220px;
+				}
+
+				i{	
+					margin-left:			15px;
+
+					&.widget__icon{
+
+						margin-left:			0;
+						margin-right:			15px;
+
+					}
+
+				}
+
+			}
+
+			.agenda__content{
+
+				width: 					270px;
+				@include breakpoint($breakpoint-medium){
+					width: 				220px;
+				}
+
+				.agenda__content__section{
+
+					margin-bottom: 			15px;
+
+					h4{
+
+						margin:					0;
+					
+					}
+
+					.agenda__content__section__title{
+
+						border-bottom-style:		solid;
+						border-bottom-width:		1px;
+						padding-bottom:				10px;
+						margin-bottom: 				10px;
+
+					}
+
+					.agenda__content__section__list{
+
+						ul li{
+							
+							list-style: 				none;
+							padding-bottom:				5px;
+							padding-top:				5px;
+							max-width: 					none;
+							@extend 					.clearfix;
+
+							i{
+
+								display: 				block;
+								@include 				float-left;
+								width: 					15px;
+
+							}
+
+							p{
+
+								display: 				block;
+								@include 				float-left;
+								margin:					0;
+								@include 				calc(width,"100% - 55px");
+								overflow: 				hidden;
+
+							}
+
+							span.agenda__list__date{
+
+								display: 				block;
+								@include 				float-left;
+								@extend 				.text-right;
+								width: 					40px;
+								padding-top:			1px;
+
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+ 	}
+
+}
+
+
+
+
+
+

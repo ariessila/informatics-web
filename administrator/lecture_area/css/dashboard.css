@@ -1,0 +1,143 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+body {
+  padding-top: 50px;
+  background-color: #3b3f40;
+}
+footer {
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #fff;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 768px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -33%;
+  }
+
+  .row-offcanvas-left.active {
+    left: 33%;
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 33%;
+    margin-left: 10px;
+  }
+}
+
+
+/* Sidebar navigation */
+.nav-sidebar {
+  background-color: #3b3f40;
+  margin-right: -15px;
+  margin-bottom: 20px;
+  margin-left: -15px;
+ 
+}
+
+.nav-sidebar > li > a, .navi  > li > a {
+  color: #ffffff; 
+}
+
+.nav-sidebar  li >a:hover,
+.nav-sidebar  li >a:focus{
+  color: #ffffff;
+  background-color: #313536;
+  text-decoration: none;
+}
+
+.nav-sidebar > .active > a {
+  color: #fff;
+  background-color: #40BABF;
+}
+
+/*
+ * Main content
+ */
+
+.main {
+  padding: 20px;
+  background-color: #fff;
+  height: 100%;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+.dropdown-custom{
+	width: 200px;
+}
+
+.dropdown-custom > li > a{
+	font-size: 12px;
+}
+
+.dropdown-custom > li > a:hover {
+	color: #fff;
+	background-color: #40BABF;
+}
+
+.nav-sidebar-header {
+	color: #fff;
+    font-size: 11px;
+    opacity: .5;
+	padding-left: 15px;
+	padding-top: 16px;
+	padding-bottom: 3px;
+	display: block;
+}
+
+.navi > li > a {
+  display: block;
+  padding: 6px 15px;
+}
+
+.icon-picture{
+	float: right;
+	color: #93979A;
+}
+
+.icon-pict {
+	color: #93979A;
+	margin-right: 10px;
+}
+
+.navi > li > a:hover > .icon-pict,
+.navi > li > a:hover > .icon-picture {
+	color: #fff;
+}
+
+.navi > .active > a > .icon-pict,
+.navi > .active > a > .icon-picture {
+	color: #fff;
+}
+
+.menu {
+  margin-left: 0;
+}
+
+.menu > li > a {
+  padding-left: 40px;
+}

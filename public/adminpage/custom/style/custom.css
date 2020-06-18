@@ -1,0 +1,11 @@
+.m-brand .m-brand__logo .m-brand__logo-wrapper img{
+    width: 100px;
+}
+
+.m-widget24 .m-widget24__item .m-widget24__stats {
+    float: right;
+    margin-right: 1.8rem;
+    margin-top: -4.0rem;
+    font-size: 1.75rem;
+    font-weight: 600; 
+}

@@ -1,0 +1,626 @@
+p {
+    color: #a3a3a3;
+    color: #495057;
+}
+
+.header-info .hf-item p span {
+    color: #fff;
+    font-weight: bolder;
+}
+
+.header-section {
+    /* background-color: #0066AD; */
+    background-color: #063d63;
+}
+
+.nav-section {
+    background-color: #5a4618;
+}
+
+.main-menu li.active a {
+    background: #9e2014;
+    color: #fff;
+}
+
+.main-menu li a {
+    padding: 15px 15px;
+}
+
+.main-menu li a:hover {
+    background: #9e2014;
+}
+
+.nav-section .nav-right {
+    display: none;
+}
+
+.site-logo {
+    max-width: 175px;
+    margin-top: -25px;
+}
+
+@media only screen and (min-width: 600px) {
+    .header-section {
+        padding: 5px 0;
+    }
+
+    .blog-item .blog-thumb {
+        width: 164px;
+        height: 130px;
+    }
+
+    .blog-item .blog-content {
+        padding-left: 183px;
+    }
+
+    .owl-carousel .owl-stage {
+        display: flex;
+        height: 400px;
+
+    }
+
+    .owl-carousel .owl-item img {
+        width: auto;
+        height: 375px;
+    }
+
+    .hs-item .hs-text {
+        vertical-align: text-top;
+        padding: 30px 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .site-logo {
+        padding: 5px 0;
+        margin-bottom: -20px;
+    }
+
+    .top-navbar {
+        display: none;
+    }
+
+    .nav-section .nav-right {
+        display: block;
+        text-align: center;
+    }
+
+    .sambutan {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .blog-section .section-title {
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .show-all {
+        margin-bottom: 20px;
+    }
+
+    .side-post {
+        margin-top: 20px
+    }
+
+    #search-wid {
+        margin-left: -10px;
+    }
+}
+
+
+.header-info {
+    margin-top: 2px;
+}
+
+.header-info .hf-item i {
+    color: #5a4618;
+}
+
+.nav-section .nav-right {
+    padding-top: 17px;
+}
+
+.nav-section .nav-right a {
+    margin-left: 6px;
+}
+
+.top-navbar {
+    /* background-color: #095d97; */
+    background-color: #063556;
+}
+
+.top-menu {
+    border-bottom: #908f8f14 solid 1px;
+    padding-left: 925px;
+}
+
+.top-menu li a {
+    padding: 2px 4px;
+    font-size: 10px;
+    color: #fff;
+    font-weight: lighter
+}
+
+.top-menu li a img {
+    margin-top: -3px;
+}
+
+.top-menu li a:hover {
+    background: #063556;
+    color: #5a4618;
+}
+
+.top-menu li.active a {
+    /* background: #0000003d; */
+    background: #063556;
+    color: #5a4618;
+    /* padding: 2px 2px; */
+}
+
+.counter-section {
+    /* background-color: #9e2014; */
+    /* background-color: #063d63; */
+    /*background-color: #9a8419; */
+}
+
+.counter-content {
+    padding-left: 0px;
+    text-align: center;
+}
+
+.dean-image {
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.dean-image img {
+    width: 160px;
+    height: 195px;
+}
+
+.spad {
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.dekan-name {
+    font-size: 1.3em;
+    /* color: #be807b !important; */
+    color: white !important;
+}
+
+.side-post .blog-item .blog-content {
+    padding-left: 0px !important;
+}
+
+.side-post .blog-item .blog-content h4 {
+    font-size: 14px !important;
+}
+
+.blog-section .section-title {
+    margin-bottom: 35px;
+}
+
+.blog-section .section-title h3 {
+    border-left: 5px solid #5a4618;
+    height: 100%;
+    padding-left: 10px;
+    margin-left: -10px;
+    background-color: #e8e8e8;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.widget .widget-title {
+    border-left: 5px solid #5a4618;
+    height: 100%;
+    padding-left: 10px;
+    margin-left: -10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #e8e8e8;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#search-wid {
+    margin-left: -30px;
+    margin-bottom: 22px;
+}
+
+
+
+.blog-item {
+    margin-bottom: 10px;
+}
+
+.side-post .blog-item {
+    margin-bottom: 0px;
+}
+
+.open>.dropdown-menu {
+    display: block;
+    background: #5a4618;
+    border: none;
+    border-radius: 0px;
+
+}
+
+.main-menu .dropdown-menu li a {
+    display: block;
+    padding: 10px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    white-space: nowrap;
+    background: #5a4618;
+}
+
+.main-menu .open>.dropdown-menu li a:hover {
+    color: #fff;
+    background: #9e2014;
+}
+
+.dropdown-menu {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    top: auto;
+}
+
+.main-menu .open a {
+    background: #9e2014;
+}
+
+.hs-item .hs-subtitle {
+    color: #9e2014;
+}
+
+.hs-item .site-btn {
+    margin-top: 10px;
+    top: 20px;
+    background: #5a4618;
+}
+
+.hero-slider .owl-dots .owl-dot.active {
+    background: #5a4618;
+}
+
+.blog-item .blog-meta span i {
+    color: #5a4618;
+}
+
+.blog-content .blog-title h4:hover {
+    color: #5a4618;
+}
+
+.enroll-list-item span {
+    background: #5a4618;
+}
+
+.course-item .course-thumb .course-cat span {
+    background: #5a4618;
+}
+
+.course-item .course-info .date {
+    color: #5a4618;
+}
+
+.course-item .course-info .cource-price {
+    color: #5a4618;
+}
+
+.footer-widget .recent-post span i {
+    color: #5a4618;
+}
+
+.img-partner {
+    max-width: 100px;
+    padding: 5px 10px;
+}
+
+.blog-item .blog-content h4 {
+    font-size: 18px;
+}
+
+.master-plan-desc {
+    padding: 2px;
+    margin-top: 25px;
+}
+
+.master-plan-desc .site-btn {
+    margin-top: -5px;
+    color: #fff !important;
+    border-radius: 50px;
+}
+
+.master-plan-desc p {
+    color: #fff;
+}
+
+.master-plan-site-logo {
+    padding-top: 5px;
+}
+
+.master-plan-site-logo img {
+    background-color: #b6b6b68f;
+    border-radius: 5px;
+    /* width: 140px;
+    height: 140px; */
+}
+
+/* Tambahan Jo */
+
+
+
+table#leader th {
+    text-align: center;
+}
+
+table#publication th,
+td {
+    text-align: center;
+}
+
+table#lecturer th,
+td {
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+table#lecturer td img {
+    min-width: 100px;
+    height: 150px;
+    width: 150px;
+}
+
+/* ul,
+ol {
+	padding: 0;
+	margin: 0;
+	margin-left:15px;
+} */
+
+.site-pageination {
+    list-style: none;
+    text-align: center;
+}
+
+.site-pageination li {
+    display: inline;
+    text-align: center;
+}
+
+.site-pageination li a {
+    display: inline-block;
+    min-width: 40px;
+    height: 40px;
+    border: 1px solid #e1e1e1;
+    color: #636363;
+    padding-top: 9px;
+    font-size: 14px;
+    margin-right: 14px;
+    border-radius: 2px;
+}
+
+.site-pageination li a:hover,
+.site-pageination li a.active {
+    background: #5a4618;
+    border-color: #5a4618;
+    color: #fff;
+}
+
+.post-item .post-meta span i {
+    color: #5a4618;
+}
+
+.widget .recent-post-widget .rp-content p i {
+    color: #5a4618;
+}
+
+.post-item .post-meta span i {
+    color: #5a4618;
+}
+
+.post-item.post-details blockquote {
+    padding: 25px 30px;
+    font-size: 16px;
+    color: #111111;
+    border-left: 3px solid #5a4618;
+    -webkit-box-shadow: 0 0 40px #f2f2f2;
+    box-shadow: 0 0 40px #f2f2f2;
+    margin: 40px 0 35px;
+}
+
+.widget .tags a {
+    min-width: 80px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 10px;
+    color: #636363;
+    padding: 12px 15px;
+    border: 1px solid #5a4618;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.post-item .tag i {
+    color: #5a4618;
+    margin-right: 5px;
+}
+
+#comment.site-btn {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    background: #5a4618;
+    color: #fff;
+    padding: 18px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    border-radius: 5px;
+    min-width: 170px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.comment-warp .comment .comment-content .c-btn:hover {
+    border-color: #5a4618;
+    background: #5a4618;
+    color: #fff;
+}
+
+.widget ul a:hover {
+    color: #5a4618;
+}
+
+.counter-section {
+    padding: 20px 0px;
+
+}
+
+.partners-section {
+    background: white;
+    padding: 50px 0;
+}
+
+.post-item .post-all {
+    height: 150px;
+    margin-bottom: 40px;
+}
+
+.post-item .post-content-all h3 {
+    font-size: 18px;
+}
+
+.post-item .post-content-all h3 a:hover {
+    color: #5a4618;
+}
+
+.post-meta-all span {
+    font-size: 12px !important;
+}
+
+.newsletter-section {
+    background: #b4b4b4;
+}
+
+.show-all a {
+    font-size: 14px;
+    /* color: #b7b7b7; */
+}
+
+.show-all a:hover {
+    color: #5a4618;
+}
+
+.rp-content a {
+    color: #111111 !important;
+}
+
+.rp-content a:hover {
+    color: #5a4618 !important;
+}
+
+.top-header-desc p {
+    color: #a3a3a3;
+}
+
+.home-blog {
+    border-left: 5px solid #5a4618;
+    padding-left: 10px;
+    margin-left: -10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #e8e8e8;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#downloadakreditasi .site-btn {
+    background: none;
+    color: #5a4618 !important;
+    border: 2px solid #da1f22f5;
+
+}
+
+/*
+#downloadakreditasi .site-btn:hover{
+color: white;
+background: #5a4618;
+
+} */
+
+#downloadakreditasi a {
+    /* text-decoration: none; */
+    color: #5a4618;
+}
+
+#downloadakreditasi a:hover {
+    color: white;
+
+}
+
+
+#beranda-kerjasama p {
+    text-transform: none;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+#beranda-publikasi p {
+    text-transform: none;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+#beranda-penelitian p {
+    text-transform: none;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+p#beranda-mahasiswa {
+    text-transform: none;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+p#beranda-alumni {
+    text-transform: none;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.footer-section h3 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.footer-section p {
+    font-size: 15px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer-widget .about-widget img {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 175px;
+}
+
+.footer-section h5 {
+    font-weight: 300;
+    color: white;
+    margin-bottom: 15px;
+}

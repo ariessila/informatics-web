@@ -1,0 +1,1089 @@
+p {
+    color: black;
+}
+
+.header-info .hf-item p span {
+    color: #fff;
+    font-weight: bolder;
+}
+
+.hs-item {
+    min-height: 400px;
+    position: relative;
+    display: table;
+    width: 100%;
+}
+
+.hs-item::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: black;
+    opacity: 0.4;
+}
+
+.header-section {
+    /* background-color: #0066AD; */
+    background-color: #063d63;
+}
+
+.nav-section {
+    background-color: #eb2629;
+}
+
+.main-menu li.active a {
+    background: #9e2014;
+    color: #fff;
+}
+
+.main-menu li a {
+    padding: 15px 15px;
+}
+
+.main-menu li a:hover {
+    background: #9e2014;
+}
+
+.nav-section .nav-right {
+    display: none;
+}
+
+
+.site-logo-en img {
+    max-width: 700px;
+    margin: 4px 0px;
+    margin-left: -25px;
+}
+
+.site-logo img {
+    max-width: 560px;
+    margin: 0px 0px;
+    margin-left: -25px;
+}
+
+.nav-tabs>li.active>a {
+    color: black;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border-radius: 4px 4px 0 0;
+}
+
+.mahasiswa-site-breadcrumb {
+    padding: 60px 0;
+    color: #b7b7b7;
+    font-size: 18px;
+    background-image: linear-gradient(#150f08c2, #150f08c2), url(https://2.bp.blogspot.com/-EHQhGRau2Aw/VzLTtiji06I/AAAAAAAAARg/MvH26rSCuNo0Gnz-miJfW2e-iMhIqOJxgCLcB/s1600/kampus.jpg);
+    margin-bottom: 30px;
+    background-position: center;
+}
+
+.mahasiswa-site-breadcrumb a {
+    color: white;
+}
+
+.mahasiswa-site-breadcrumb a i {
+    margin: 0;
+}
+
+.mahasiswa-site-breadcrumb i {
+    margin: 0 10px;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.pagination>li {
+    display: inline;
+}
+
+.pagination>li>a:hover {
+    z-index: 2;
+    color: #23527c;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination-lg>li>a {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+}
+
+.pagination>li>a {
+    position: relative;
+    float: left;
+    margin-left: -1px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.pagination-lg>li:first-child>a {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.header-info {
+    margin-top: 2px;
+}
+
+.header-info .hf-item i {
+    color: #5a4618;
+}
+
+.nav-section .nav-right {
+    padding-top: 17px;
+}
+
+.nav-section .nav-right a {
+    margin-left: 6px;
+}
+
+.top-navbar {
+    /* background-color: #095d97; */
+    background-color: #063556;
+}
+
+.top-menu {
+    border-bottom: #908f8f14 solid 1px;
+    padding-left: 925px;
+}
+
+.top-menu li a {
+    padding: 2px 4px;
+    font-size: 9.5px;
+    color: #fff;
+    font-weight: lighter
+}
+
+.top-menu li a img {
+    margin-top: -3px;
+}
+
+.top-menu li a:hover {
+    background: #063556;
+    color: #c72942;
+}
+
+.top-menu li.active a {
+    /* background: #0000003d; */
+    background: #063556;
+    color: #c72942;
+    /* padding: 2px 2px; */
+}
+
+.counter-section {
+    background-color: #5a4618;
+}
+
+.counter-content {
+    padding-left: 0px;
+    text-align: center;
+}
+
+.dean-image {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.spad {
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.dekan-name {
+    font-size: 1.3em;
+    color: white !important;
+}
+
+.side-post .blog-item .blog-content {
+    padding-left: 0px !important;
+}
+
+.side-post .blog-item .blog-content h4 {
+    font-size: 14px !important;
+}
+
+.blog-section .section-title {
+    margin-bottom: 10px;
+}
+
+.blog-item {
+    margin-bottom: 10px;
+}
+
+.side-post .blog-item {
+    margin-bottom: 0px;
+}
+
+.open>.dropdown-menu {
+    display: block;
+    background: #eb2629;
+    border: none;
+    border-radius: 0px;
+
+}
+
+.main-menu .dropdown-menu li a {
+    display: block;
+    padding: 10px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    white-space: nowrap;
+    background: #eb2629;
+}
+
+.main-menu .open>.dropdown-menu li a:hover {
+    color: #fff;
+    background: #9e2014;
+}
+
+.dropdown-menu {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    top: auto;
+}
+
+.main-menu .open a {
+    background: #9e2014;
+}
+
+.hs-item .hs-subtitle {
+    color: #9e2014;
+}
+
+.hs-item .site-btn {
+    margin-top: 10px;
+    top: 20px;
+    background: #5a4618;
+}
+
+.hs-item .site-btn {
+    margin-top: 10px;
+    top: 20px;
+    color: white;
+    background: #5a4618;
+}
+
+.hero-slider .owl-dots .owl-dot.active {
+    background: #5a4618;
+}
+
+.blog-item .blog-meta span i {
+    color: #5a4618;
+}
+
+.blog-content .blog-title h4:hover {
+    color: #5a4618;
+}
+
+.enroll-list-item span {
+    background: #5a4618;
+}
+
+.course-item .course-thumb .course-cat span {
+    background: #5a4618;
+}
+
+.course-item .course-info .date {
+    color: #5a4618;
+}
+
+.course-item .course-info .cource-price {
+    color: #5a4618;
+}
+
+.footer-widget .recent-post span i {
+    color: #5a4618;
+}
+
+.img-partner {
+    max-width: 100px;
+    padding: 5px 10px;
+}
+
+.enroll-section {
+    position: relative;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.enroll-section .counter-content a:hover {
+    color: white;
+
+}
+
+#downloadakreditasi.site-btn {
+    background: none;
+    color: #33280e;
+    border: 2px solid #33280e;
+
+}
+
+#downloadakreditasi.site-btn:hover {
+    color: white;
+    background: #5a4618;
+}
+
+.blog-section .site-btn {
+    background: none;
+    color: #5a4618;
+    border: 2px solid #33280e;
+
+}
+
+.blog-section .site-btn:hover {
+    color: white;
+    background: #5a4618;
+
+}
+
+.enroll-section .site-btn {
+    background: none;
+    color: white;
+    border: 2px solid #33280e;
+
+}
+
+.enroll-section .site-btn:hover {
+    background: #5a4618;
+
+}
+
+.beranda-kepegawaian {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.beranda-kepegawaian:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: white;
+    opacity: 0.8;
+}
+
+.beranda-kepegawaian .container {
+    position: relative;
+    z-index: 1;
+}
+
+.beranda-kepegawaian .section-title {
+    margin-bottom: 40px;
+}
+
+.beranda-kepegawaian .counter-content a:hover {
+    color: white;
+
+}
+
+.beranda-kepegawaian .site-btn {
+    background: none;
+    color: #5a4618;
+    border: 2px solid #33280e;
+    margin-top: 10px;
+
+}
+
+.beranda-kepegawaian .site-btn:hover {
+    color: white;
+    background: #5a4618;
+
+}
+
+.beranda-kepegawaian h2 {
+    color: black;
+}
+
+.beranda-kepegawaian p {
+    color: black;
+}
+
+.beranda-kemahasiswaan {
+    position: relative;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.beranda-kemahasiswaan:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: white;
+    opacity: 0.8;
+}
+
+.beranda-kemahasiswaan .container {
+    position: relative;
+    z-index: 1;
+}
+
+.beranda-kemahasiswaan .section-title {
+    margin-bottom: 40px;
+}
+
+.beranda-kemahasiswaan .counter-content a:hover {
+    color: white;
+
+}
+
+.beranda-kemahasiswaan .site-btn {
+    background: none;
+    color: #5a4618;
+    border: 2px solid #33280e;
+
+}
+
+.beranda-kemahasiswaan .site-btn:hover {
+    background: #5a4618;
+
+}
+
+.beranda-kemahasiswaan h2 {
+    color: black;
+}
+
+.beranda-kemahasiswaan p {
+    color: black;
+}
+
+.beranda-laboratorium {
+    position: relative;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.beranda-laboratorium:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: white;
+    opacity: 0.8;
+}
+
+.beranda-laboratorium .container {
+    position: relative;
+    z-index: 1;
+}
+
+.beranda-laboratorium .section-title {
+    margin-bottom: 40px;
+}
+
+.beranda-laboratorium .counter-content a:hover {
+    color: white;
+
+}
+
+.beranda-laboratorium .site-btn {
+    background: #33280e;
+
+}
+
+.beranda-laboratorium .site-btn:hover {
+    background: #5a4618;
+
+}
+
+.beranda-laboratorium h2 {
+    color: black;
+}
+
+.beranda-laboratorium p {
+    color: black;
+}
+
+.beranda-laboratorium img {
+
+    vertical-align: middle;
+}
+
+.beranda-laboratorium .hovereffect {
+    width: 100%;
+    height: auto;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.beranda-laboratorium .hovereffect .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.beranda-laboratorium .hovereffect:hover .overlay {
+    background-color: #5a461893;
+}
+
+.beranda-laboratorium .hovereffect img {
+    display: block;
+    position: relative;
+}
+
+.beranda-laboratorium .hovereffect h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-transform: translateY(45px);
+    -ms-transform: translateY(45px);
+    transform: translateY(45px);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.beranda-laboratorium .hovereffect:hover h2 {
+    -webkit-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    transform: translateY(5px);
+}
+
+.beranda-laboratorium .hovereffect a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    font-weight: normal;
+    margin: 5% 0 0 0;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.beranda-laboratorium .hovereffect:hover a.info {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.beranda-laboratorium .hovereffect a.info:hover {
+    box-shadow: 0 0 5px #fff;
+}
+
+.container .tabs-left {
+    border-bottom: none;
+    border-right: 1px solid #ddd;
+    display: block;
+}
+
+.container .tabs-left>li {
+    float: none;
+    margin: 0px;
+
+}
+
+.container .tabs-left>li a {
+    color: black;
+
+}
+
+.container .tabs-left>li.active>a,
+.container .tabs-left>li.active>a:hover,
+.container .tabs-left>li.active>a:focus {
+    border-bottom-color: #ddd;
+    border-right-color: transparent;
+    background: #150f08c2;
+    border: none;
+    border-radius: 0px;
+    margin: 0px;
+    color: white;
+}
+
+.container .nav-tabs>li>a:hover {
+    /* margin-right: 2px; */
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    /* border-radius: 4px 4px 0 0; */
+}
+
+.container.tabs-left>li.active>a::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+
+    border-left: 10px solid #150f08c2;
+    display: block;
+    width: 0;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+table#detailprofil {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    margin-top: 40px;
+}
+
+#detailprofil td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
+
+#detailprofil th {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
+
+#detailprofil tr:hover {
+    background-color: #f5f5f5;
+}
+
+#publikasi table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+
+#publikasi td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
+
+#publikasi th {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
+
+#publikasi tr:hover {
+    background-color: #f5f5f5;
+}
+
+#penelitian table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#penelitian td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
+
+#penelitian th {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
+
+#penelitian tr:hover {
+    background-color: #f5f5f5;
+}
+
+#pengabdian table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#pengabdian td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
+
+#pengabdian th {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
+
+#pengabdian tr:hover {
+    background-color: #f5f5f5;
+}
+
+.course-info .site-btn {
+    background: none;
+    color: #5a4618;
+    border: 2px solid #33280e;
+    margin-top: 10px;
+
+}
+
+.course-info .site-btn:hover {
+    color: white;
+    background: #5a4618;
+
+}
+
+.site-pageination li a:hover,
+.site-pageination li a.active {
+    background: #5a4618;
+    border-color: #352907b2;
+    color: #fff;
+}
+
+.member .member-social a:hover {
+    color: #5a4618;
+}
+
+.widget .recent-post-widget .rp-content p i {
+    color: #5a4618;
+}
+
+.widget .recent-post-widget .rp-content h6:hover {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #5a4618;
+}
+
+.site-btn {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    background: #5a4618;
+    color: #fff;
+    padding: 18px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    border-radius: 5px;
+    min-width: 170px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.scrollable {
+    min-height: fit-content;
+    max-height: 100rem;
+    overflow-x: scroll;
+}
+
+
+.event-item .event-thumb .event-date span {
+    min-width: 170px;
+    bottom: 0;
+    background: #5a4618;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50px;
+    letter-spacing: 2px;
+}
+
+.member #beranda-staf-laboratorium.member-pic:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.member #beranda-staf-admin.member-pic:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.member #beranda-staf-pengajar.member-pic:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.header-info .hf-item p {
+    color: white;
+}
+
+.course-item .course-thumb img {
+    width: 370px;
+    height: 250px;
+}
+
+.post-item .post-meta span i {
+    color: #5a4618;
+}
+
+.widget .widget-title {
+    border-left: 5px solid #5a4618;
+    height: 100%;
+    padding-left: 10px;
+    margin-left: -10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #e8e8e8;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.footer-widget .recent-post p {
+    color: rgb(206, 206, 206);
+}
+
+.footer-widget .recent-post p:hover {
+    color: #fff;
+}
+
+#matakuliahampu table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#matakuliahampu td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
+
+#matakuliahampu th {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
+
+#matakuliahampu tr:hover {
+    background-color: #f5f5f5;
+}
+
+
+.member {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.site-btn-tabel-dosen {
+    position: relative;
+    text-transform: uppercase;
+    background: #5a4618;
+    color: #fff;
+    padding: 18px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    border-radius: 5px;
+    min-width: 170px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.risetdankerjasama-icon {
+    font-size: 70px;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: -15px;
+}
+
+@media only screen and (min-width: 600px) {
+    .header-section {
+        padding: 5px 0;
+    }
+
+    .blog-item .blog-thumb {
+        width: 164px;
+        height: 130px;
+    }
+
+    .blog-item .blog-content {
+        padding-left: 183px;
+    }
+
+    .owl-carousel .owl-stage {
+        display: flex;
+        height: 400px;
+
+    }
+
+    .owl-carousel .owl-item img {
+        width: auto;
+        height: 375px;
+    }
+
+    .hs-item .hs-text {
+        vertical-align: text-top;
+        padding: 30px 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .site-logo img {
+        max-width: 250px;
+        margin: 25px 0px;
+    }
+
+    .top-navbar {
+        display: none;
+    }
+
+    .nav-section .nav-right {
+        display: block;
+        text-align: center;
+    }
+
+    .sambutan {
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .blog-section .section-title {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    #foto-kemahasiswaan {
+        margin-top: 20px
+    }
+
+    #foto-akademik {
+        margin-top: 60px
+    }
+
+    .footer-widget.akreditasi {
+        margin-top: 90px;
+    }
+
+    .scrollable {
+        min-height: fit-content;
+        max-height: 100rem;
+        overflow-x: hidden;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    #foto-kemahasiswaan {
+        margin-top: -40px
+    }
+
+    #beranda-penelitian {
+        margin-top: 30px;
+        margin-bottom: 30px
+    }
+
+    #beranda-publikasi {
+        margin-bottom: 30px
+    }
+
+}
+
+@media only screen and (max-width: 850px) {
+
+
+    table#detailprofil {
+        border-collapse: collapse;
+        width: 100%;
+        table-layout: fixed;
+        margin-top: -60px;
+    }
+
+    .site-logo-en img {
+        max-width: 250px;
+        margin-top: 10px;
+    }
+
+}
