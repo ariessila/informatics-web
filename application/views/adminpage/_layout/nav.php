@@ -275,6 +275,11 @@
                                     <span>List Akademik</span>
                                 </a>
                             </li>
+                            <li class="<?=(($modul == 'Kurikulum' AND ($method == '' OR $method == 'edit')) ? 'active' : '')?>">
+                                <a href="<?=admin_url('Kurikulum')?>">
+                                    <span>Kurikulum</span>
+                                </a>
+                            </li>
                             <!--<li class="<?=(($modul == 'Akademik' AND $method == 'tambah') ? 'active' : '')?>">
                                 <a href="<?=admin_url('Akademik/tambah')?>">
                                     <span>Tambah Akademik(Indonesia)</span>

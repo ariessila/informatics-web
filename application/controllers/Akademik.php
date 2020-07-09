@@ -18,6 +18,7 @@ class Akademik extends Public_Controller {
 
     public function index($slug = '')
     {
+        $kurikulum = $this->db->query("SELECT * FROM kurikulum")->result();
         $akademik = $this->crud->gd($this->table,array('slug_'.$this->lang => $slug));
         $akademik_en = $this->crud->gd('akademik_en',array('id_akademik_en' => $akademik->id_akademik));
         
@@ -28,7 +29,8 @@ class Akademik extends Public_Controller {
                         'latest'   => $latest,
                         'data'  => $akademik,
                         'data_en' => $akademik_en,
-                        'isi'       => 'homepage/akademik/view_#'.$this->lang);
+                        'isi'       => 'homepage/akademik/view_#'.$this->lang,
+                        'kurikulum' => $kurikulum);
         $this->load->view('homepage/_layout/wrapper', $data);
     }
 
